@@ -17,8 +17,8 @@ fun main() {
     var cont4 = 0
 
 
-    //valor != (-1) - para parar a entrada de valores
-    while (numero != (-1)) {
+    //valor = (-) para parar a entrada de valores
+    while (numero >= 0)  {
         numero = sc.nextInt()
 
         if (numero in 0..25) {

@@ -10,13 +10,9 @@ fun main(){
     var fatorial = 1
 
     for (num in 1..numFat) {
-
         fatorial *= num
-
-
         println(num)
     }
-
     println(fatorial)
 }
 
